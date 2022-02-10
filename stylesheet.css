@@ -1,46 +1,21 @@
 .container-fluid {
-  text-align: center;
 }
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-image: url();
-}
-header.container-fluid {
-  display: flex;
-  justify-content: center;
-}
-h1.display-1 {
-  font-family: "Festive", cursive;
-  padding: 50px;
-}
-.navbar {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  width: 100%;
-}
-nav li {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 60px;
-}
-
 .sidespace {
   width: 20%;
 }
-
 img {
   width: 100%;
 }
 .row img {
   width: 100%;
   margin-top: 30px;
-  max-height: 145px;
-  min-height: 145px;
 }
 .row a {
   width: 20%;
   color: rgba(7, 7, 8, 0.623);
+}
+.coverpic img{
+  max-height: 145px;
+  min-height: 145px;
+
 }
