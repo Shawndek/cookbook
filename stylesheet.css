@@ -1,24 +1,22 @@
 .container-fluid {
-
     text-align: center;
-
 }
-
 .sidespace {
   width: 20%;
 }
-
 img {
   width: 100%;
 }
 .row img {
   width: 100%;
   margin-top: 30px;
-  max-height: 145px;
-  min-height: 145px;
-
 }
 .row a {
   width: 20%;
   color: rgba(7, 7, 8, 0.623);
+}
+.coverpic img{
+  max-height: 145px;
+  min-height: 145px;
+
 }
