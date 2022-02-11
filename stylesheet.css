@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 .container-fluid {
 }
 .sidespace {
@@ -25,4 +26,8 @@ margin-top: 60px;
 .recipe.day {
   display: flex;
   align-content: flex-start;
+}
+h1 {
+  font-family: "Gloria Hallelujah", cursive;
+  margin-bottom: 50px;
 }
