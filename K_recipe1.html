@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -26,8 +27,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-          
-              <div class="collapse navbar-collapse" id="navbarColor03">
+          <div class="collapse navbar-collapse" id="navbarColor03">
                 <ul class="navbar-nav me-auto">
                   <li class="nav-item">
                     <a class="nav-link active text-black" href="#">HOME
@@ -75,64 +75,68 @@
     <hr>
   </header>
     <main>
-      <div class="row">
+      <div class="row text-center">
         <div class="col">
-          <h3>Recipe of the Day</h3>
+          <h2>Recipe of the Day</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-            <img src="source/img/classic-miso-soup.jpeg" height="200" width="100" alt="Miso-soup">
+      <div class="row mt-5">
+        <div class="col text-center">
+            <img src="source/img/classic-miso-soup.jpeg" style="height: 500px; width: 500px;" alt="Miso-soup">
         </div>
-        <div class="col">
+        <div class="col mt-4">
           <div class="row">
               <h4>Miso Soup</h4>
               <div class="col">
-                <p>Learn how to make miso soup at home! We love serving this nourishing, savory soup with shiitake maki for a fun, at-home sushi night.</p>
+                <p>Learn how to make miso soup at home!<br> We love serving this nourishing, savory soup with shiitake maki for a fun, at-home sushi night.</p>
               </div>
           </div>
           <div class="row">
             <h4>Ingredients</h4>
-            <div class="col">
-              <ul>
-                <li>1 (3-inch) piece of Kombu</li>
-                <li>4 cups Water</li>
-                <li>3 tablespoons wakame dried Seaweed</li> 
-                <li>¼ cup white Miso paste</li> 
-                <li>⅓ cup chopped Scallions</li> 
-                <li>6 ounces silken Tofu, cubed</li> 
-                <li>Tamari, to taste</li>   
-              </ul>
+            <div class="col-lg-8 col-xl-8">
+              <ol class="list-group list-group-numbered">
+                <li class="list-group-item">1 (3-inch) piece of Kombu</li>
+                <li class="list-group-item">4 cups Water</li>
+                <li class="list-group-item">3 tablespoons wakame dried Seaweed</li> 
+                <li class="list-group-item">¼ cup white Miso paste</li> 
+                <li class="list-group-item">⅓ cup chopped Scallions</li> 
+                <li class="list-group-item">6 ounces silken Tofu, cubed</li> 
+                <li class="list-group-item">Tamari, to taste</li>   
+              </ol>
             </div>
           </div>
-          <div class="row">
+          <div class="container">
+          <div class="row mt-3">
             <div class="col">
                 <h4>Prep Time</h4>
                 <p>10 Mins</p>
             </div>
-            <div class="col">
+             <div class="col">
                 <h4>Cook Time</h4>
                 <p>12 Mins</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col mx-3 mt-3">
+              <h4>Instructions<h4>
+            </div>
+      </div>
       <div class="row">
           <div class="col">
-              <div class="row">
-                <h4>Instructions<h4>
-              </div>
-          </div>
-          <div class="col"></div>
-          <ol>
-            <li>Gently rinse the kombu piece. Place it in a medium pot with the water and gently simmer for 10 minutes. Don’t let it boil, or the kombu flavor will turn bitter.</li>
-            <li>Soak the wakame in a small bowl of warm water for at least 5 minutes to rehydrate.</li>
-            <li>Remove the kombu from the soup. In a small bowl, stir the miso paste together with some of the hot broth until the mixture is smooth, then stir it back into the soup.</li>
+          <ol class="d-flex flex-column">
+            <li>Gently rinse the kombu piece. Place it in a medium pot with the water and gently simmer for 10 minutes. Don’t let it boil, or the kombu flavor will turn bitter.</li><br>
+            <li>Soak the wakame in a small bowl of warm water for at least 5 minutes to rehydrate.</li><br>
+            <li>Remove the kombu from the soup. In a small bowl, stir the miso paste together with some of the hot broth until the mixture is smooth, then stir it back into the soup.</li><br>
             <li>Drain the wakame and add it to the soup pot along with the scallions and tofu. Simmer over very low heat for 1 to 2 minutes. Season, to taste, with tamari.</li>
           </ol>
-    </main>
-  
-  <hr>
+          </div>
+      </div>
+    </div>
+  </main>
   <footer class="bg-light text-white pt-4 pb-2">
     <div class="container text-center text-md-left">
       <div class ="row text-center text-md-left">
@@ -173,9 +177,7 @@
                 <a href="#" class="btn-floating btn-sm text-black" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
               </li>
             </ul>
-
           </div>
-
         </div>
       </div>
     </div>

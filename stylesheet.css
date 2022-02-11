@@ -14,8 +14,11 @@ img {
   width: 20%;
   color: rgba(7, 7, 8, 0.623);
 }
-.coverpic img{
+.coverpic img {
   max-height: 145px;
   min-height: 145px;
-
+}
+.recipe.day {
+  display: flex;
+  align-content: flex-start;
 }
