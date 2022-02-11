@@ -18,5 +18,7 @@ img {
 .coverpic img{
   max-height: 145px;
   min-height: 145px;
-
+}
+.row h2 {
+  margin-top: 25px;
 }
