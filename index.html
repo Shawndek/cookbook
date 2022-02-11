@@ -13,11 +13,64 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="source/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--<link rel="stylesheet" href="source/bootstrap_orange.css" type="text/css">-->
     <link rel="stylesheet" href="stylesheet.css" type="text/css" />
   </head>
   <body>
-    <header>
+    <header class="container-fluid bg-light text-white pt-5 pb-0">
+      <section>
+        <div class="row text-center">
+          <div class="col-md-8 col-lg-8 mx-auto mt-3">
+            <h1 class="display-1 mb-4 font-weight-bold text-black">Eating Food</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">NAV</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                  <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active text-black" href="#">HOME
+                        <span class="visually-hidden">(current)</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black" href="#">RECIPES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black" href="#">COOKBOOK</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black" href="#">SUBSCRIBE</a>
+                    </li>
+                    <li class="nav-item dropdown text-black">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">DROPDOWN</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Recipes</a>
+                        <a class="dropdown-item" href="#">Cookbook</a>
+                        <a class="dropdown-item" href="#">Subscribe</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Write Us</a>
+                      </div>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+    <!--<header>
       <img src="source/img/banner2.jpg" alt="" />
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -79,38 +132,147 @@
           </div>
         </div>
       </nav>
-    </header>
-    <main class="container-fluid">
-      <div class="row">r1</div>
-      <div class="row">
-        <div class="col sidespace"></div>
+    </header>-->
+    <!-- heading for content page-->
+ <main class="container-fluid">
+      <div class="row text-center pt-5 pb-4">
+        <div class="col-md-8 col-lg-8 mx-auto">
+          <h3>
+            A food blog with fresh and appetizing recipes.<br />Check out our popular
+            Recipes
+          </h3>
+        </div>
+      </div>
+      <!--first row of images-->
+      <div class="row d-flex justify-content-around">
+       <div class="col mx-auto">
+          <div class="card h-150">
+            <div class="card-header text-dark text-center">
+              Classic Miso Soup
+            </div>
+            <img class="card-img-top" src="source/img/classic-miso-soup.jpeg" style="height:490px"
+              alt="miso soup">
+            <div class="card-body">
+              <p class=" card-text text-dark">
+                Miso soup (味噌汁, misoshiru) is a traditional Japanese soup with deep savory flavor.
+              </p>
+              <a href="K_recipe1.html" class="card-link text-info mt-auto" style="text-decoration:none;">Recipe</a>
+            </div>
+          </div>
+        </div>
+        <!--<div class="col sidespace"></div>
 
         <a style="display: block" href="K_recipe1.html">
           <div class="col-sm coverpic">
-                        <img src="source/img/classic-miso-soup.jpeg"  alt="" />
+            <img src="source/img/classic-miso-soup.jpeg" alt="" />
             <p class="h6">Classic Miso Soup</p>
             <p>
-              <small>This line of text is meant to be treated as fine print.</small>
+              <small
+                >This line of text is meant to be treated as fine print.</small
+              >
             </p>
-          </div></a>
+          </div></a
+        >-->
+        <div class="col mx-auto">
+          <div class="card h-150">
+            <div class="card-header text-dark text-center">
+              No-bake Energy Balls
+            </div>
+            <img class="card-img-top" src="source/img/No-Bake-Energy-Bites-4-1.jpeg" style="height:490px"
+              alt="energy balls">
+            <div class="card-body">
+              <p class=" card-text text-dark">
+              Energy Balls are a combination of dried fruit,dates, nut butter, seeds, and other ingredients. 
+              </p>
+              <a href="K_recipe2.html" class="card-link text-info mt-auto" style="text-decoration:none;">Recipe</a>
+            </div>
+          </div>
+        </div>
+        <!--FRANCOIS recipes-->
+        <div class="col mx-auto">
+          <div class="card h-150">
+            <div class="card-header text-dark text-center">
+              Milk-Tart
+            </div>
+            <img class="card-img-top" src="source/img/sa_milktart.jpg" style="height:490px"
+              alt="Milktart">
+            <div class="card-body">
+              <p class=" card-text text-dark">
+                This line of text is meant to be treated as fine print llll oooo pppp ppppp ppppp ppppp.
+              </p>
+              <a href="" class="card-link text-info mt-auto" style="text-decoration:none;">Recipe</a>
+            </div>
+          </div>
+        </div>
 
-        <a style="display: block" href="K_recipe2.html">
-          <div class="col-sm coverpic">
-            <img src="source/img/No-Bake-Energy-Bites-4-2.jpeg" alt="" />
-            <p class="h6">No-Bake Energy Bites</p>
-            <p>
-              <small>This line of text is meant to be treated as fine print.</small>
-            </p>
-          </div></a>
-        <a style="display: block" href="recepie3.html">
+       <!--second row of images-->
+       <!--FRANCOIS recipe-->
+        
+        <div class="row d-flex justify-content-around">
+          <div class="col mx-auto">
+            <div class="card h-150">
+              <div class="card-header text-dark text-center">
+                Babotie
+              </div>
+              <img class="card-img-top" src="source/img/sa_bobotie.jpg"  style="height:490px"
+                alt="Babotie">
+              <div class="card-body">
+                <p class=" card-text text-dark">
+                  Bobotie (Afrikaans: [bəˈbuəti]) is a well-known South African dish consisting of spiced minced meat baked with an egg-based topping.
+                </p>
+                <a href="" class="card-link text-info mt-auto" style="text-decoration:none;">Recipe</a>
+              </div>
+            </div>
+          </div>
+          <!--SHAWN recipe-->
+          <div class="col mx-auto">
+            <div class="card h-150">
+              <div class="card-header text-dark text-center">
+                Mushroom Pasta with Spinach
+              </div>
+              <img class="card-img-top" src="source/img/mushroom_pasta.png"  style="height:490px"
+                alt="mushroom pasta">
+              <div class="card-body">
+                <p class=" card-text text-dark">
+                  Bobotie (Afrikaans: [bəˈbuəti]) is a well-known South African dish consisting of spiced minced meat baked with an egg-based topping.
+                </p>
+                <a href="" class="card-link text-info mt-auto" style="text-decoration:none;">Recipe</a>
+              </div>
+            </div>
+          </div>
+          <!--SHAWN recipe, I added francois just to fill it-->
+          <div class="col mx-auto">
+            <div class="card h-150">
+              <div class="card-header text-dark text-center">
+                Babotie
+              </div>
+              <img class="card-img-top" src="source/img/sa_bobotie.jpg"  style="height:490px"
+                alt="Babotie">
+              <div class="card-body">
+                <p class=" card-text text-dark">
+                  Bobotie (Afrikaans: [bəˈbuəti]) is a well-known South African dish consisting of spiced minced meat baked with an egg-based topping.
+                </p>
+                <a href="" class="card-link text-info mt-auto" style="text-decoration:none;">Recipe</a>
+              </div>
+            </div>
+          </div>
+        </main>
+         
+
+
+        <!--<a style="display: block" href="recepie3.html">
           <div class="col-sm coverpic">
             <img src="source/img/sa_milktart.jpg" alt="" />
             <p class="h6">Milktart</p>
             <p>
-              <small>This line of text is meant to be treated as fine print.</small>
+              <small
+                >This line of text is meant to be treated as fine print.</small
+              >
             </p>
-          </div></a>
-        <div class="col sidespace"></div>
+          </div></a
+        >-->
+
+        <!--<div class="col sidespace"></div>
       </div>
       <div class="row">
         <div class="col sidespace"></div>
@@ -119,30 +281,85 @@
             <img src="source/img/sa_bobotie.jpg" alt="" />
             <p class="h6">Bobotie</p>
             <p>
-              <small>This line of text is meant to be treated as fine print.</small>
+              <small
+                >This line of text is meant to be treated as fine print .</small
+              >
             </p>
-          </div></a>
+          </div></a
+        >-->
+        <!----
         <a style="display: block" href="S_recipe1.html">
           <div class="col-sm coverpic">
             <img src="source/img/recepie_template.jpg" alt="" />
             <p class="h6">h6. Bootstrap heading</p>
             <p>
-              <small>This line of text is meant to be treated as fine print.</small>
+              <small
+                >This line of text is meant to be treated as fine print.</small
+              >
             </p>
-          </div></a>
+          </div></a
+        >
+
         <a style="display: block" href="recepie6.html">
           <div class="col-sm coverpic">
             <img src="source/img/recepie_template.jpg" alt="" />
             <p class="h6">h6. Bootstrap heading</p>
             <p>
-              <small>This line of text is meant to be treated as fine print.</small>
+              <small
+                >This line of text is meant to be treated as fine print.</small
+              >
             </p>
-          </div></a>
+          </div></a
+        >
         <div class="col sidespace"></div>
+        </div>-->
+    
+    <!--<footer></footer>-->
+
+    <footer class="bg-light text-white pt-4 pb-2">
+      <div class="container text-center text-md-left">
+        <div class ="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h4 class="text-uppercase mb-4 font-weight-bold text-black">Eating Food</h4>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h4 class="text-uppercase mb-4 font-weight-bold text-black">recipes</h4>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h4 class="text-uppercase mb-4 font-weight-bold text-black">Privacy</h4>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h4 class="text-uppercase mb-4 font-weight-bold text-black">contact</h4>
+          </div>
+        </div>
+        <div class="row-align-items-center">
+          <div class="col-md-6 col-lg-6 mx-auto mt-3">
+            <p style="color:black;">Copyright@2022 All rights reserved by:
+              <a href="#" style="text-decoration": none;">
+                <strong class="text-black">Eating Food</strong>
+              </a>
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-6 mx-auto mt-3">
+            <div class="text-right text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-black" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-black" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-black" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-black" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+                </li>
+              </ul>
+            </div>
+           </div>
+        </div>
       </div>
-    </main>
-    <footer>
-    </footer>
-  
+     </footer>
   </body>
 </html>
