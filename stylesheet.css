@@ -6,17 +6,18 @@
 img {
   width: 100%;
 }
+.col{
+margin-top: 60px;
+}
 .row img {
   width: 100%;
   margin-top: 30px;
 }
-.row a {
-  width: 20%;
-  color: rgba(7, 7, 8, 0.623);
+.row img:hover {
+  opacity: 70%;
 }
-.coverpic img {
-  max-height: 145px;
-  min-height: 145px;
+.card:hover{
+ ;
 }
 .row h2 {
   margin-top: 25px;
