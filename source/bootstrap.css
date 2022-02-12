@@ -4194,8 +4194,8 @@ fieldset:disabled .btn {
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-  color: #fff;
-  background-color: #f3969a;
+  color: black;
+  background-color: #e2d3c4;
 }
 
 .dropdown-item.active,

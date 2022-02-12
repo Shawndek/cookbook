@@ -7,8 +7,8 @@
 img {
   width: 100%;
 }
-.col{
-margin-top: 60px;
+.col {
+  margin-top: 60px;
 }
 .row img {
   width: 100%;
@@ -17,8 +17,7 @@ margin-top: 60px;
 .row img:hover {
   opacity: 70%;
 }
-.card:hover{
- ;
+.card:hover {
 }
 .row h2 {
   margin-top: 25px;
