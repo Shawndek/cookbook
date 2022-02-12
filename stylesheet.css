@@ -14,12 +14,16 @@ img {
   width: 100%;
   margin-top: 30px;
 }
-.row img:hover {
+.card img:hover {
   opacity: 70%;
 }
 .card:hover {
 }
+.pb-5 button {
+  width: 15%;
+  
 
+}
 .recipe.day {
   display: flex;
   align-content: flex-start;
@@ -62,6 +66,7 @@ body {
   );
 }
 footer {
+  margin-top: 30px;
   background: rgb(253, 186, 45);
   background: linear-gradient(
     360deg,
