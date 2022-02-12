@@ -19,14 +19,53 @@ img {
 }
 .card:hover {
 }
-.row h2 {
-  margin-top: 25px;
-}
+
 .recipe.day {
   display: flex;
   align-content: flex-start;
 }
 h1 {
   font-family: "Gloria Hallelujah", cursive;
-  margin-bottom: 50px;
+}
+.col.miso-desc {
+  margin-top: 5px;
+}
+.col.cooktime {
+  margin-top: 20px;
+}
+.col.preptime {
+  margin-top: 20px;
+}
+.col.instructions {
+  margin-top: 20px;
+}
+header {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    180deg,
+    rgba(34, 193, 195, 0.4010197829131653) 0%,
+    rgba(34, 193, 195, 0.1545211834733894) 50%
+  );
+}
+img.buddy {
+  width: 30%;
+}
+img.buddy:hover {
+  opacity: 100%;
+}
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    180deg,
+    rgba(34, 193, 195, 0.25115983893557425) 0%,
+    rgba(253, 186, 45, 0.352000175070028) 100%
+  );
+}
+footer {
+  background: rgb(253, 186, 45);
+  background: linear-gradient(
+    360deg,
+    rgba(253, 186, 45, 0.5494791666666667) 0%,
+    rgba(253, 186, 45, 0.152000175070028) 50%
+  );
 }
