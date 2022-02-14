@@ -60,117 +60,127 @@
           </div>
         </nav>
       </header>
-    <main>
-      <div class="row">
+    <main class="container-fluid recipe1">
+      <div class="row text-center">
         <div class="col">
-            <img src="source/img/sa_milktart.jpg" alt="Milk tart">
+          <h2 class="text-black">Recipe of the Day</h2>
+        </div>
+      </div>
+      <div id="container-md">
+      <div class="row pt-2 pb-2">
+        <div class="col text-center">
+            <img src="source/img/sa_milktart.jpg" style="height: 500px; width: 500px;" alt="Milk Tart">
         </div>
         <div class="col">
           <div class="row">
-              <h4>Milk tart</h4>
-              <div class="col">
-                <p>Milk Tart - Easy, Rich and Creamy - Perfect entertaining pie with an easy press-on pastry crust.</p>
+              <h4 class="text-black">Milk Tart</h4>
+              <div class="col miso-desc">
+                <p class="text-black">Milk Tart - Easy, Rich and Creamy - Perfect entertaining pie with an easy press-on pastry crust.</p>
               </div>
           </div>
           <div class="row">
-            <h4>Ingredients</h4>
-            <div class="col">
-              <ul>
-                <li>200g Marie biscuits</li>
-                <li>1 tbsp ground cinnamon — plus extra for sprinkling</li>
-                <li>180 g	butter — melted</li> 
-                <li>2 cup	milk</li> 
-                <li>2 1/2 tbsp flour</li> 
-                <li>2 tbsp sugar</li> 
-                <li>3	extra-large eggs</li>
-                <li>5 tbsp castor sugar</li>
-                <li>1/4 tsp	salt</li>
-                <li>1 tbsp	vanilla essence</li>   
+            <h4 class="text-black pb-3">Ingredients</h4>
+            <div class="col-lg-8 col-xl-8">
+              <ul class="list-group">
+                <li class="list-group-item text-black bg-transparent">200g Marie biscuits</li>
+                <li class="list-group-item text-black bg-transparent">1 tbsp ground cinnamon - plus extra for sprinkling</li>
+                <li class="list-group-item text-black bg-transparent">180g butter - melted</li>
+                <li class="list-group-item text-black bg-transparent">2 cup milk</li> 
+                <li class="list-group-item text-black bg-transparent">2 1/2 tbsp flour</li> 
+                <li class="list-group-item text-black bg-transparent">2 tbsp sugar</li> 
+                <li class="list-group-item text-black bg-transparent">3 extra-large eggs</li>
+				<li class="list-group-item text-black bg-transparent">5 tbsp castor sugar</li>
+				<li class="list-group-item text-black bg-transparent">1/4 tsp	salt</li>
+				<li class="list-group-item text-black bg-transparent">1 tbsp	vanilla essence</li>
               </ul>
             </div>
           </div>
+          <div class="container-md">
           <div class="row">
-            <div class="col">
-                <h4>Prep Time</h4>
-                <p>15 Mins</p>
+            <div class="col preptime">
+                <h4 class="text-black">Prep Time</h4>
+                <p class="text-black">15 Mins</p>
             </div>
-            <div class="col">
-                <h4>Cook Time</h4>
-                <p>40 Mins</p>
+             <div class="col cooktime">
+                <h4 class="text-black">Cook Time</h4>
+                <p class="text-black">40 Mins</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-          <div class="col">
-              <div class="row">
-                <h4>Instructions<h4>
-              </div>
-          </div>
-          <div class="col"></div>
-          <ol>
-            <li>Preheat the oven to 160° C.</li>
-            <li>Place the marie biscuits into a food processor and blitz to a crumb.</li>
-            <li>Tip the crumbs into a large bowl, and add the cinnamon powder and melted butter - mix well.</li>
-            <li>Line the base and sides of a 25 cm quiche tin with the crumb. Set aside to rest.</li>
-            <li>Place the milk, flour, egg yolks, and 30 ml of sugar, and salt, into a small pot and bring to a gentle simmer over a low heat. Stir consistently until the custard has thickened. Stir the vanilla into the cooked custard and set aside.</li>
-            <li>Whisk the egg whites to stiff peak and stir in the castor sugar. Fold the whipped whites into the custard mixture and spoon over the biscuit crumb.</li>
-            <li>Bake for 30 minutes. Remove from the oven and let it rest for 10 minutes before serving.</li>
+    </div>
+  </div>
+    <div class="container">
+      <div class="row pt-3">
+          <div class="col-md-6 offset-md-1">
+              <h4 class="text-black">Instructions<h4>
+            </div>
+      </div>
+      <div class="row pb-5">
+          <div class="col instructions">
+          <ol class="d-flex flex-column">
+            <li class="text-black">Preheat the oven to 160° C.</li><br>
+            <li class="text-black">Place the marie biscuits into a food processor and blitz to a crumb.</li><br>
+            <li class="text-black">Tip the crumbs into a large bowl, and add the cinnamon powder and melted butter - mix well.</li><br>
+            <li class="text-black">Line the base and sides of a 25 cm quiche tin with the crumb. Set aside to rest.</li><br>
+            <li class="text-black">Place the milk, flour, egg yolks, and 30 ml of sugar, and salt, into a small pot and bring to a gentle simmer over a low heat. Stir consistently until the custard has thickened. Stir the vanilla into the cooked custard and set aside.</li><br>
+            <li class="text-black">Whisk the egg whites to stiff peak and stir in the castor sugar. Fold the whipped whites into the custard mixture and spoon over the biscuit crumb.</li><br>
+            <li class="text-black">Bake for 30 minutes. Remove from the oven and let it rest for 10 minutes before serving.</li>
           </ol>
+          </div>
+      </div>
+      <button id="btn" class="btn btn-dark my-2 my-sm-0 text-center">share recipe</button>
+      <script>
+      var btn = document.getElementById('btn')
+      btn.addEventListener('click', function(){
+       alert(window.location);});    
+      </script>
+    </div>
+  </main>
+  <footer class="text-white pt-4 pb-2">
+    <div class="container text-center text-md-left">
+      <div class ="row text-center text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-grey">Eating Food</h5>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-grey">recipes</h5>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-grey">Privacy</h5>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-grey">contact</h5>
         </div>
       </div>
-         <button id="btn" class="btn btn-dark my-2 my-sm-0 text-center">share recipe</button>
-              <script>
-              var btn = document.getElementById('btn')
-              btn.addEventListener('click', function(){
-               alert(window.location);});    
-              </script>
-      </div>
-    </main>
-    <footer class="text-white pt-4 pb-2">
-      <div class="container text-center text-md-left">
-        <div class ="row text-center text-md-left">
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-grey">Eating Food</h5>
-          </div>
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-grey">recipes</h5>
-          </div>
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-grey">Privacy</h5>
-          </div>
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-grey">contact</h5>
-          </div>
+      <div class="row-align-items-center">
+        <div class="col-md-6 col-lg-6 mx-auto mt-3">
+          <p style="color:grey;">Copyright@2022 All rights reserved by:
+            <a href="#" style="text-decoration: none;">
+              <strong class="text-grey">Eating Food</strong>
+            </a>
+          </p>
         </div>
-        <div class="row-align-items-center">
-          <div class="col-md-6 col-lg-6 mx-auto mt-3">
-            <p style="color:grey;">Copyright@2022 All rights reserved by:
-              <a href="#" style="text-decoration: none;">
-                <strong class="text-grey">Eating Food</strong>
-              </a>
-            </p>
+        <div class="col-md-6 col-lg-6 mx-auto mt-3">
+          <div class="text-right text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com" class="btn-floating btn-sm text-grey" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.twitter.com" class="btn-floating btn-sm text-grey" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com" class="btn-floating btn-sm text-grey" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com" class="btn-floating btn-sm text-grey" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
           </div>
-          <div class="col-md-6 col-lg-6 mx-auto mt-3">
-            <div class="text-right text-md-right">
-              <ul class="list-unstyled list-inline">
-                <li class="list-inline-item">
-                  <a href="https://www.facebook.com" class="btn-floating btn-sm text-grey" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.twitter.com" class="btn-floating btn-sm text-grey" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.instagram.com" class="btn-floating btn-sm text-grey" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.youtube.com" class="btn-floating btn-sm text-grey" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
-                </li>
-              </ul>
-            </div>
-           </div>
-        </div>
+         </div>
       </div>
-     </footer>
-  </body>
-  </html>
+    </div>
+   </footer>
+</body>
+</html>
