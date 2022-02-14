@@ -29,6 +29,9 @@ img {
 h1 {
   font-family: "Gloria Hallelujah", cursive;
 }
+.col.fix {
+  margin-top: 20px;
+}
 .col.miso-desc {
   margin-top: 5px;
 }
